@@ -1,0 +1,6 @@
+framework module libphonenumber2 {
+  umbrella header "libphonenumber2-umbrella.h"
+
+  export *
+  module * { export * }
+}

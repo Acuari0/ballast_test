@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "811220109761",
+    "project_id": "ballast-test",
+    "storage_bucket": "ballast-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811220109761:android:9316afb10cf9b302fec740",
+        "android_client_info": {
+          "package_name": "com.example.ballast_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZBNrIPCV_6LzU9WO0xIcf549PeRBRyCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

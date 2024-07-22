@@ -1,0 +1,24 @@
+Welcome to firepit v1.1.0!
+Doing JSON parses for version checks at /snapshot/firepit/vendor/node_modules/firebase-tools/package.json
+firebase-tools
+Installed ft@11.25.2 and packaged ft@11.25.2
+Checking for npm/bin/npm-cli install at /Users/johanguillen/.cache/firebase/tools/lib/node_modules/npm/bin/npm-cli
+Checking for npm/bin/npm-cli install at /Users/johanguillen/.cache/firebase/tools/node_modules/npm/bin/npm-cli
+Checking for npm/bin/npm-cli install at /snapshot/firepit/node_modules/npm/bin/npm-cli
+Found npm/bin/npm-cli install.
+Checking for npm/bin/npm-cli install at /Users/johanguillen/.cache/firebase/tools/lib/node_modules/npm/bin/npm-cli
+Checking for npm/bin/npm-cli install at /Users/johanguillen/.cache/firebase/tools/node_modules/npm/bin/npm-cli
+Checking for npm/bin/npm-cli install at /snapshot/firepit/node_modules/npm/bin/npm-cli
+Found npm/bin/npm-cli install.
+Runtime binaries created.
+/usr/local/bin/firebase
+/usr/local/bin/firebase,/snapshot/firepit/firepit.js,apps:sdkconfig,ios,1:811220109761:ios:c5eb9c5d3f5380e0fec740,--json
+Checking for npm/bin/npm-cli install at /Users/johanguillen/.cache/firebase/tools/lib/node_modules/npm/bin/npm-cli
+Checking for npm/bin/npm-cli install at /Users/johanguillen/.cache/firebase/tools/node_modules/npm/bin/npm-cli
+Checking for npm/bin/npm-cli install at /snapshot/firepit/node_modules/npm/bin/npm-cli
+Found npm/bin/npm-cli install.
+Checking for npm/bin/npm-cli install at /Users/johanguillen/.cache/firebase/tools/lib/node_modules/npm/bin/npm-cli
+Checking for npm/bin/npm-cli install at /Users/johanguillen/.cache/firebase/tools/node_modules/npm/bin/npm-cli
+Checking for npm/bin/npm-cli install at /snapshot/firepit/node_modules/npm/bin/npm-cli
+Found npm/bin/npm-cli install.
+ShellJSInternalError: ENOENT: no such file or directory, chmod '/Users/johanguillen/.cache/firebase/runtime/node'
