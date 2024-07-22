@@ -62,7 +62,7 @@ We will have 2 structures:
 With this information base where at the beginning we have a small app that by doing research beyond that provided by the client can become a medium and even large app because of the vast information that can provide the POKEMON theme.
 
 It is considered that the worst case scenario is that the app in its scaling can become a medium app with more than 10 screens if we take into account:
-xw
+
 - User profile
 - Configuration
 - News
