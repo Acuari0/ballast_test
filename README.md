@@ -82,4 +82,3 @@ Reusable code: By centralizing the state of the application, you can write reusa
 
 Easy to test: Because the reducer is a pure function, it is easy to write automated tests. This makes it easier to ensure that the state of the application is being updated correctly.
 
-Translated with DeepL.com (free version)
