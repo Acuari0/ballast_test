@@ -44,7 +44,7 @@ The app will initially be managed in 4 screens
 
 Structure
 
-We will have 2 structures:
+We will have 2 important structures:
 
 - User : User information.
 
@@ -80,6 +80,8 @@ Scalability: As the size and complexity of a Flutter application grows, Redux ma
 Reusable code: By centralizing the state of the application, you can write reusable code that can be shared across different parts of the application.
 
 Easy to test: Because the reducer is a pure function, it is easy to write automated tests. This makes it easier to ensure that the state of the application is being updated correctly.
+
+I have chosen redux because I can't know how large the project is because I don't have enough information and it is better to go for a safe bet than to regret it in the future.
 
 # Search Engine
 
