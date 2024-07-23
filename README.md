@@ -89,7 +89,14 @@ The search engine is enhanced with the dependency (full_text_search: ^0.8.0+3) w
 
 The search process consists of separating sentences into words, for this purpose lists of strings are created using spaces as separators. We pass the data to full_text_search and it will search the possible results making comparisons according to the title of the movie and the id of this one, it is important to emphasize that the comparisons of the words are made removing the diacritics of each one and converting all the letters in small letters.
 
+# Language
+
+I see that every title is in English, so I use the English for de native language pf the app.
+
+
 # Unit Test 
+
+Unit test is very important at the beginning of an app. I cover all the app with unit test and some golden test in the HomeScreen an SummaryScreen.
 
 For running unit test you have to do
 
