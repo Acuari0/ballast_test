@@ -29,6 +29,15 @@ void main() {
 
       expect(product.isNotEmpty, true);
     });
+
+    test('Random Number', () async {
+      int aux= randomNumber(0, 2);
+      expect(aux>-1 && aux<2, true);
+    });
+
+    test('HexColor', () async {
+      expect(HexColor("#b74093") is Color, true);
+    });
   });
 }
 

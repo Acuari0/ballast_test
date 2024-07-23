@@ -2,6 +2,7 @@ import 'package:ballast_test/data/repositories/simple_login.dart';
 import 'package:ballast_test/domain/entities/models/user.dart';
 import 'package:ballast_test/ui/common/utils.dart';
 import 'package:ballast_test/ui/constants/styles/box_styles.dart';
+import 'package:ballast_test/ui/widgets/pokemon_dancing/pokemon_dancing.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:ballast_test/ui/constants/constants.dart' as Constants;
 import 'package:flutter/material.dart';
@@ -150,7 +151,8 @@ class _LoginState extends State<Login> {
                                 ),
                               ),
                             ),
-
+                            SizedBox(height: 60,),
+                            PokemonDancing()
                           ],
                         ),
                       ]),

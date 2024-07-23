@@ -2,12 +2,11 @@
 
 # User Story
 
-I am a pokemon lover and I would like to have at hand information of all the movie in the pokemon market. My fascination for the pokemon world is such that I want to know all the curiosities of each one of them, their summary among other things.
+I am a pokemon lover, and I would like to have at hand information on all the movies in the pokemon market. My fascination for the pokemon world is such that I want to know all the curiosities of each one of them, their summary, among other things.
 
-Being able to see all the pokemon movies, makes me want to know more about all of them and thanks to the app provides me with details of each movie makes me give it an additional value as it saves me from going to google, forums, etc. to know deep things about the pokemon world.
+To have all the pokemon movies listed in one app, as well as their specific details will be of great interest, as it will save me from going to Google or forums to dive deeply into the pokemon world.
 
-Its simple design not so overloaded but fluid is excellent and very similar to the pages of pokemon information, not having advertising and go directly to what the app provides much easier to use.
-
+The app will have a simple design, rather fluid and not overloaded. It will be similar to the pokemon information websites. The application will not have advertising and it will go directly to the features that I require.
 
 # Design Choices 
 
@@ -82,3 +81,8 @@ Reusable code: By centralizing the state of the application, you can write reusa
 
 Easy to test: Because the reducer is a pure function, it is easy to write automated tests. This makes it easier to ensure that the state of the application is being updated correctly.
 
+# Unit Test 
+
+For running unit test you have to 
+
+flutter test --update-goldens

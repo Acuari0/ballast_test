@@ -1,4 +1,6 @@
 import 'package:ballast_test/domain/entities/models/products.dart';
+import 'package:ballast_test/ui/common/utils.dart';
+import 'package:ballast_test/ui/widgets/random_pokemon/random_pokemon.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
@@ -64,6 +66,8 @@ class _SummaryPageState extends State<SummaryPage> {
               HtmlWidget(
                   key:Key('description'),
                   widget.product!.description!),
+              SizedBox(height: 20,),
+              RandomPokemon(number: randomNumber(0, 2),),
               SizedBox(height: 80,)
             ],
           ),
