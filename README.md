@@ -91,7 +91,7 @@ The search process consists of separating sentences into words, for this purpose
 
 # Language
 
-I see that every title is in English, so I use the English for de native language pf the app.
+I see that every title is in English, so I use the English for de native language of the app.
 
 
 # Unit Test 
