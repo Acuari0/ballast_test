@@ -81,6 +81,12 @@ Reusable code: By centralizing the state of the application, you can write reusa
 
 Easy to test: Because the reducer is a pure function, it is easy to write automated tests. This makes it easier to ensure that the state of the application is being updated correctly.
 
+# Search Engine
+
+The search engine is enhanced with the dependency (full_text_search: ^0.8.0+3) which helps to make a more accurate search and the dependency (diacritic: ^0.1.3) to remove words with diacritics.
+
+The search process consists of separating sentences into words, for this purpose lists of strings are created using spaces as separators. We pass the data to full_text_search and it will search the possible results making comparisons according to the title of the movie and the id of this one, it is important to emphasize that the comparisons of the words are made removing the diacritics of each one and converting all the letters in small letters.
+
 # Unit Test 
 
 For running unit test you have to do
