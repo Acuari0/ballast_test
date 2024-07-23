@@ -83,6 +83,6 @@ Easy to test: Because the reducer is a pure function, it is easy to write automa
 
 # Unit Test 
 
-For running unit test you have to 
+For running unit test you have to do
 
 flutter test --update-goldens
