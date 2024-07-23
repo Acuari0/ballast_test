@@ -1,5 +1,6 @@
 import 'package:ballast_test/data/repositories/simple_login.dart';
 import 'package:ballast_test/data/service/search.dart';
+import 'package:ballast_test/data/service/text_localization.dart';
 import 'package:ballast_test/ui/common/utils.dart';
 import 'package:ballast_test/ui/page/home_page/widgets/card_tile.dart';
 
@@ -23,6 +24,7 @@ class HomePage extends StatefulWidget{
 class _HomePageState extends State<HomePage> {
   Delegate _delegate=Delegate();
   Search _search=Search();
+  TextLocalization textLocalization=TextLocalization();
   List<Product> _product=[],_searchProducts=[];
   @override
   Widget build(BuildContext context) {
@@ -46,7 +48,7 @@ class _HomePageState extends State<HomePage> {
           return Scaffold(
             appBar: AppBar(
               elevation: 2,
-              title: Text("Movies"),
+              title: Text(textLocalization.text(id: "movie")),
               leading:
               IconButton(
                 key: Key('refresh'),
@@ -62,7 +64,7 @@ class _HomePageState extends State<HomePage> {
               actions: [
                 CustomFlatButton(
                   key: Key('logout'),
-                  text: "Logout",
+                  text: textLocalization.text(id: "logout"),
                   icon: Icons.power_settings_new,
                   onPress: () async {
                     await authenticationService.logout(dispatch: vm.dispatch).then((value) {
@@ -111,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                         return CardTile(
                           product: item,
                         );
-                    }):Center(child: Text("No result found...", textAlign: TextAlign.center,
+                    }):Center(child: Text(textLocalization.text(id: "not_found"), textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700)
                       ,)),
                   )

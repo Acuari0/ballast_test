@@ -1,4 +1,5 @@
 import 'package:ballast_test/data/repositories/simple_login.dart';
+import 'package:ballast_test/data/service/text_localization.dart';
 import 'package:ballast_test/domain/entities/models/user.dart';
 import 'package:ballast_test/ui/common/utils.dart';
 import 'package:ballast_test/ui/constants/styles/box_styles.dart';
@@ -24,6 +25,7 @@ class _LoginState extends State<Login> {
   GlobalKey<FormState> _keyForm = GlobalKey();
   RegExp emailRegExp = new RegExp(Constants.EMAIL_REG_EXP);
   bool _obscureText=true;
+  TextLocalization textLocalization=TextLocalization();
   ScrollController? scrollController = ScrollController();
   ScrollPhysics physics = ScrollPhysics();
   bool isListScrollable = true;
@@ -72,7 +74,7 @@ class _LoginState extends State<Login> {
                                   children: <Widget>[
                                     SizedBox(height: 30,),
                                     Image.asset('assets/pok.png'),
-                                    Text("Movies",
+                                    Text(textLocalization.text(id: "movie"),
                                     style: TextStyle(
                                       fontSize: 20,
                                       fontWeight: FontWeight.w800
@@ -88,8 +90,8 @@ class _LoginState extends State<Login> {
                                         maxLength: 50,
                                         textAlign: TextAlign.start,
                                         decoration: InputDecoration(
-                                            labelText: 'User',
-                                            hintText: "User",
+                                            labelText: textLocalization.text(id: "username"),
+                                            hintText: textLocalization.text(id: "username"),
                                             counterText: '',
                                             floatingLabelBehavior:
                                             FloatingLabelBehavior.always),
@@ -104,8 +106,8 @@ class _LoginState extends State<Login> {
                                         keyboardType: TextInputType.text,
                                         textAlign: TextAlign.start,
                                         decoration: InputDecoration(
-                                            hintText: "Password",
-                                            labelText: "Password",
+                                            hintText: textLocalization.text(id: "password"),
+                                            labelText: textLocalization.text(id: "password"),
                                             counterText: '',
                                             suffixIcon: IconButton(
                                               key: Key('visibility_button'),
@@ -142,7 +144,7 @@ class _LoginState extends State<Login> {
                                             }
                                           },
                                           child: Text(
-                                              "Sign in",
+                                              textLocalization.text(id: "sign_in"),
                                               style: TextStyle(fontSize: 20)),
                                         ),
                                       ),

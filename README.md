@@ -91,7 +91,7 @@ The search process consists of separating sentences into words, for this purpose
 
 # Language
 
-I see that every title is in English, so I use the English for de native language of the app.
+I see that all the titles are in English, so I use English as the native language of the application along with a json where it stores by id all the texts in English and with a function so that other languages can be added to the app in the future without problems.
 
 
 # Unit Test 

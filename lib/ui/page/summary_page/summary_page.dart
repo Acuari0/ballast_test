@@ -1,3 +1,4 @@
+import 'package:ballast_test/data/service/text_localization.dart';
 import 'package:ballast_test/domain/entities/models/products.dart';
 import 'package:ballast_test/ui/common/utils.dart';
 import 'package:ballast_test/ui/widgets/random_pokemon/random_pokemon.dart';
@@ -18,7 +19,7 @@ class SummaryPage extends StatefulWidget{
 }
 
 class _SummaryPageState extends State<SummaryPage> {
-  
+  TextLocalization textLocalization=TextLocalization();
   @override
   void initState() {
     super.initState();
@@ -36,7 +37,7 @@ class _SummaryPageState extends State<SummaryPage> {
           },
         ),
         elevation: 2,
-        title: Text("Summary"),
+        title: Text(textLocalization.text(id: "summary")),
       ),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 20,
